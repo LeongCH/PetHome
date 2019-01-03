@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/title_home" />
+
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/title_profile"/>
+
+        <item
+            android:id="@+id/navigation_pet_care"
+            android:icon="@drawable/ic_pet_care_icon"
+            android:title="@string/title_pet_care" />
+
+        <item
+            android:id="@+id/navigation_adoption"
+            android:icon="@drawable/ic_pets_black_24dp"
+            android:title="@string/title_adoption" />
+
+        <item
+            android:id="@+id/navigation_lost_n_found"
+            android:icon="@drawable/ic_lost_n_found"
+            android:title="@string/title_lost_n_found" />
+
+        <item
+            android:id="@+id/navigation_pet_service"
+            android:icon="@drawable/ic_pet_service_icon"
+            android:title="@string/title_pet_service" />
+
+
+    </group>
+
+    <item android:title="@string/title_other">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/title_help" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/title_about_us" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="@string/title_logout" />
+        </menu>
+    </item>
+
+</menu>
